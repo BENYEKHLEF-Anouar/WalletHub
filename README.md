@@ -1,42 +1,34 @@
-💰 WalletHub – Application Web de Gestion Budgétaire
-WalletHub est une application PHP permettant à un utilisateur de gérer efficacement ses revenus et dépenses, suivre l’évolution de son solde, et visualiser un historique budgétaire détaillé. Ce projet met l'accent sur la sécurité, la clarté du code, et une expérience utilisateur fluide.
+# WalletHub – Application Web de Gestion Budgétaire
 
-📌 Fonctionnalités principales
-🔐 Authentification sécurisée
+**WalletHub** est une application PHP permettant à un utilisateur de gérer efficacement ses revenus et dépenses, suivre l’évolution de son solde, et visualiser un historique budgétaire détaillé.  
+Ce projet met l'accent sur la sécurité, la clarté du code, et une expérience utilisateur fluide.
 
-Page de connexion
+---
 
-Page d'inscription avec mots de passe hachés
+## Fonctionnalités principales
 
-📊 Gestion complète des transactions
+### Authentification sécurisée
+- Page de connexion
+- Page d'inscription avec mots de passe hachés
 
-Ajouter, modifier, supprimer une transaction
+### Gestion complète des transactions
+- Ajouter, modifier, supprimer une transaction
+- Types : **Revenu** ou **Dépense**
+- Champs requis : **montant**, **catégorie**, **description**, **date**
+- Affichage de l’historique filtrable par **mois** et **année**
 
-Types : Revenu ou Dépense
+### Tableau de bord dynamique
+- Solde actuel
+- Résumé mensuel : total **revenus / dépenses**
+- Sommes par **catégorie**
+- **Dépense la plus élevée** et **revenu le plus important** du mois
 
-Champs requis : montant, catégorie, description, date
+---
 
-Affichage de l’historique filtrable par mois et année
+## Technologies utilisées
 
-📈 Tableau de bord dynamique
+- **Langage** : PHP (procédural avec structuration par fonctions)
+- **Base de données** : MySQL
+- **Frontend** : HTML / CSS / JavaScript
 
-Solde actuel
 
-Résumé mensuel : total revenus / dépenses
-
-Sommes par catégorie
-
-Dépense la plus élevée et revenu le plus important du mois
-
-🛠️ Technologies utilisées
-Langage : PHP (procédural avec structuration par fonctions)
-
-Base de données : MySQL
-
-Frontend : HTML / CSS / JavaScript
-
-Sécurité :
-
-Hachage des mots de passe
-
-Nettoyage des entrées utilisateur
