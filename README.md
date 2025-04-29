@@ -1,4 +1,4 @@
-# WalletHub – Application Web de Gestion Budgétaire
+# WalletHub – Application Web de Gestion Budgétaire 
 
 **WalletHub** est une application PHP permettant à un utilisateur de gérer efficacement ses revenus et dépenses, suivre l’évolution de son solde, et visualiser un historique budgétaire détaillé.  
 Ce projet met l'accent sur la sécurité, la clarté du code, et une expérience utilisateur fluide.
@@ -31,4 +31,4 @@ Ce projet met l'accent sur la sécurité, la clarté du code, et une expérience
 - **Base de données** : MySQL
 - **Frontend** : HTML / CSS / JavaScript
 
-
+    ![Status](https://img.shields.io/badge/Status-Finished-brightgreen)
